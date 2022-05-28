@@ -11436,3 +11436,13 @@ Transparent Overlay
     transform: rotate(360deg);
   }
 }
+.nopading{
+  padding: 0 !important ; 
+
+}
+.padings{
+  padding: 1rem 0 !important ;
+}
+.padingss{
+  margin-top: 1rem !important;
+}
