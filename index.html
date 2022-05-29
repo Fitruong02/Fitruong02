@@ -103,7 +103,7 @@
                 </a>
                 <div class="relative z-20 w-full h-auto py-8 text-white bg-purple-500 border-t-0 border-yellow-200 px-7">
                     <a onclick="myFunction(); return false;" href="" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-purple-500 bg-white">Knowledge</a>
-                    <div class="hidecontent" id="myContent">
+                    <div class="hidecontent" id="myContent1">
                         <h2 class="mb-5 text-5xl font-bold"><a href="#_">Healthier Lifestyle</a></h2>
                         <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Living a healthier lifestyle will help with your productivity and your mind-set.</p>
                     </div>
@@ -116,7 +116,7 @@
                 </a>
                 <div class="relative z-20 w-full h-auto py-8 text-white bg-blue-400 border-t-0 border-yellow-200 px-7">
                     <a onclick="myFunction(); return false;" href="#_" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-blue-500 bg-white">Experience</a>
-                    <div class="hidecontent" id="myContent">
+                    <div class="hidecontent" id="myContent2">
                         <h2 class="mb-5 text-5xl font-bold"><a href="#_">Healthier Lifestyle</a></h2>
                         <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Living a healthier lifestyle will help with your productivity and your mind-set.</p>
                     </div>
@@ -127,7 +127,7 @@
                 <a onclick="myFunction(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url('https://cdn.devdojo.com/images/may2021/gbc.jpg')"></a>
                 <div class="relative z-20 flex flex-col items-start justify-center w-full h-auto py-8 text-white bg-yellow-400 border-t-0 border-yellow-200 sm:h-full xl:h-auto px-7">
                     <a onclick="myFunction(); return false;" href="#_" class="inline-block text-xs font-semibold absolute sm:mb-5 xl:mb-0 sm:relative xl:absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-yellow-400 bg-white">Skills</a>
-                    <div class="hidecontent" id="myContent">
+                    <div class="hidecontent" id="myContent3">
                         <h2 class="mb-5 text-5xl font-bold"><a href="#_">Healthier Lifestyle</a></h2>
                         <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Living a healthier lifestyle will help with your productivity and your mind-set.</p>
                     </div>
@@ -330,11 +330,23 @@
         </script>
         <script>
             function myFunction() {
-              var x = document.getElementById("myContent");
-              if (x.style.display === "none") {
-                x.style.display = "block";
+              var x1 = document.getElementById("myContent1");
+              var x2 = document.getElementById("myContent2");
+              var x3 = document.getElementById("myContent3");
+              if (x1.style.display === "none") {
+                x1.style.display = "block";
               } else {
-                x.style.display = "none";
+                x1.style.display = "none";
+              }
+              if (x2.style.display === "none") {
+                x2.style.display = "block";
+              } else {
+                x2.style.display = "none";
+              }
+              if (x3.style.display === "none") {
+                x3.style.display = "block";
+              } else {
+                x3.style.display = "none";
               }
             }
             </script>
