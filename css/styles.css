@@ -11446,3 +11446,7 @@ Transparent Overlay
 .padingss{
   margin-top: 1rem !important;
 }
+
+.hidecontent {
+  display: none;
+}
