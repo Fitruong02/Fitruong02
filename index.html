@@ -99,10 +99,10 @@
         <p class="text-lg font-medium text-gray-500 sm:text-2xl">Comming soon</p>
         <div class="flex grid h-full grid-cols-12 gap-10 pb-10 mt-8 sm:mt-16">
             <div class="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
-                <a onclick="myFunction(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url(./assets/knowleged.png)">
+                <a onclick="myFunction1(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url(./assets/knowleged.png)">
                 </a>
                 <div class="relative z-20 w-full h-auto py-8 text-white bg-purple-500 border-t-0 border-yellow-200 px-7">
-                    <a onclick="myFunction(); return false;" href="" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-purple-500 bg-white">Knowledge</a>
+                    <a onclick="myFunction1(); return false;" href="" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-purple-500 bg-white">Knowledge</a>
                     <div class="hidecontent" id="myContent1">
                         <h2 class="mb-5 text-5xl font-bold"><a href="#_">Healthier Lifestyle</a></h2>
                         <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Living a healthier lifestyle will help with your productivity and your mind-set.</p>
@@ -112,10 +112,10 @@
             </div>
 
             <div class="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4">
-                <a onclick="myFunction(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url(./assets/experience.png)">
+                <a onclick="myFunction2(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url(./assets/experience.png)">
                 </a>
                 <div class="relative z-20 w-full h-auto py-8 text-white bg-blue-400 border-t-0 border-yellow-200 px-7">
-                    <a onclick="myFunction(); return false;" href="#_" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-blue-500 bg-white">Experience</a>
+                    <a onclick="myFunction2(); return false;" href="#_" class="inline-block text-xs font-semibold absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-blue-500 bg-white">Experience</a>
                     <div class="hidecontent" id="myContent2">
                         <h2 class="mb-5 text-5xl font-bold"><a href="#_">Healthier Lifestyle</a></h2>
                         <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Living a healthier lifestyle will help with your productivity and your mind-set.</p>
@@ -124,9 +124,9 @@
             </div>
 
             <div class="relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group sm:col-span-12 xl:col-span-4 sm:flex-row xl:flex-col">
-                <a onclick="myFunction(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url('https://cdn.devdojo.com/images/may2021/gbc.jpg')"></a>
+                <a onclick="myFunction3(); return false;" href="#_" class="block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110" style="background-image:url('https://cdn.devdojo.com/images/may2021/gbc.jpg')"></a>
                 <div class="relative z-20 flex flex-col items-start justify-center w-full h-auto py-8 text-white bg-yellow-400 border-t-0 border-yellow-200 sm:h-full xl:h-auto px-7">
-                    <a onclick="myFunction(); return false;" href="#_" class="inline-block text-xs font-semibold absolute sm:mb-5 xl:mb-0 sm:relative xl:absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-yellow-400 bg-white">Skills</a>
+                    <a onclick="myFunction3(); return false;" href="#_" class="inline-block text-xs font-semibold absolute sm:mb-5 xl:mb-0 sm:relative xl:absolute top-0 -mt-3.5 rounded-full px-4 py-2 uppercase text-yellow-400 bg-white">Skills</a>
                     <div class="hidecontent" id="myContent3">
                         <h2 class="mb-5 text-5xl font-bold"><a href="#_">Healthier Lifestyle</a></h2>
                         <p class="mb-2 text-lg font-normal text-blue-100 opacity-100">Living a healthier lifestyle will help with your productivity and your mind-set.</p>
@@ -329,24 +329,28 @@
         };
         </script>
         <script>
-            function myFunction() {
-              var x1 = document.getElementById("myContent1");
-              var x2 = document.getElementById("myContent2");
-              var x3 = document.getElementById("myContent3");
-              if (x1.style.display === "none") {
-                x1.style.display = "block";
+            function myFunction1() {
+              var x = document.getElementById("myContent1");
+              if (x.style.display === "none") {
+                x.style.display = "block";
               } else {
-                x1.style.display = "none";
+                x.style.display = "none";
               }
-              if (x2.style.display === "none") {
-                x2.style.display = "block";
+            }
+            function myFunction2() {
+              var x = document.getElementById("myContent2");
+              if (x.style.display === "none") {
+                x.style.display = "block";
               } else {
-                x2.style.display = "none";
+                x.style.display = "none";
               }
-              if (x3.style.display === "none") {
-                x3.style.display = "block";
+            }
+            function myFunction3() {
+              var x = document.getElementById("myContent3");
+              if (x.style.display === "none") {
+                x.style.display = "block";
               } else {
-                x3.style.display = "none";
+                x.style.display = "none";
               }
             }
             </script>
