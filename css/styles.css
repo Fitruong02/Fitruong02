@@ -11450,3 +11450,7 @@ Transparent Overlay
 .hidecontent {
   display: none;
 }
+
+.p-5 {
+  padding: 1rem !important;
+}
