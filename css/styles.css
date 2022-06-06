@@ -11461,6 +11461,7 @@ Transparent Overlay
 .active {
   color: cyan !important;
   border-radius: 5px;
+  margin: 0 20px;
   box-shadow:  0 0 5px #33ffff,
                0 0 10px #66ffff;
 }
