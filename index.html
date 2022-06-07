@@ -22,7 +22,7 @@
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container px-5">
-                <a class="navbar-brand logostyle"  href="#!">
+                <a class="navbar-brand logostyle"  href="index.html">
                     AI <span style="color:yellow;font-weight: 1500; ">LifeStyle </span>
 
                 </a>
@@ -32,7 +32,7 @@
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
                         <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/AI-LifeStyle-111790794873210/?ref=pages_you_manage">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link" href="resource.html">Resource</a></li>
+                        <li class="nav-item"><a class="nav-link" href="posted.html">Posted</a></li>
                     </ul>
                 </div>
             </div>
@@ -355,76 +355,78 @@
             }
             </script>
            
-           <script>
-            // Configs
-            let liveChatBaseUrl   = document.location.protocol + '//' + 'livechat.fpt.ai/v36/src'
-            let LiveChatSocketUrl = 'livechat.fpt.ai:443'
-            let FptAppCode        = '3bb71baf6d921625008ed89e6761d0f7'
-            let FptAppName        = 'Rô Đây !!!'
-            // Define custom styles
-            let CustomStyles = {
-                // header
-                headerBackground: '#3C3737FF',
-                headerTextColor: '#ffffffff',
-                headerLogoEnable: true,
-                headerLogoLink: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/logo_head.svg',
-                headerText: 'Rô Đây !!!',
-                // main
-                primaryColor: '#0F19EBFF',
-                secondaryColor: '#ecececff',
-                primaryTextColor: '#F0EB00FF',
-                secondaryTextColor: '#000000DE',
-                buttonColor: '#2D48C2B3',
-                buttonTextColor: '#ffffffff',
-                bodyBackgroundEnable: true,
-                bodyBackgroundLink: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/body.png',
-                avatarBot: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/bot.svg',
-                sendMessagePlaceholder: '',
-                // float button
-                floatButtonLogo: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/logo.svg',
-                floatButtonTooltip: 'Trò chuyện ngay với Rô nào !!!',
-                floatButtonTooltipEnable: true,
-                // start screen
-                customerLogo: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/logo.svg',
-                customerWelcomeText: 'Rô có thể gọi bạn là gì ?',
-                customerButtonText: 'Start',
-                prefixEnable: true,
-                prefixType: 'radio',
-                prefixOptions: ["Nam","Nữ","Không muốn tiết lộ"],
-                prefixPlaceholder: 'Rô có thể gọi bạn là gì nhỉ ?',
-                // custom css
-                css: ''
-            }
-            // Get bot code from url if FptAppCode is empty
-            if (!FptAppCode) {
-                let appCodeFromHash = window.location.hash.substr(1)
-                if (appCodeFromHash.length === 32) {
-                    FptAppCode = appCodeFromHash
-                }
-            }
-            // Set Configs
-            let FptLiveChatConfigs = {
-                appName: FptAppName,
-                appCode: FptAppCode,
-                themes : '',
-                styles : CustomStyles
-            }
-            // Append Script
-            let FptLiveChatScript  = document.createElement('script')
-            FptLiveChatScript.id   = 'fpt_ai_livechat_script'
-            FptLiveChatScript.src  = liveChatBaseUrl + '/static/fptai-livechat.js'
-            document.body.appendChild(FptLiveChatScript)
-            // Append Stylesheet
-            let FptLiveChatStyles  = document.createElement('link')
-            FptLiveChatStyles.id   = 'fpt_ai_livechat_script'
-            FptLiveChatStyles.rel  = 'stylesheet'
-            FptLiveChatStyles.href = liveChatBaseUrl + '/static/fptai-livechat.css'
-            document.body.appendChild(FptLiveChatStyles)
-            // Init
-            FptLiveChatScript.onload = function () {
-                fpt_ai_render_chatbox(FptLiveChatConfigs, liveChatBaseUrl, LiveChatSocketUrl)
-            }
-        </script>
+           
+<script>
+    // Configs
+    let liveChatBaseUrl   = document.location.protocol + '//' + 'livechat.fpt.ai/v36/src'
+    let LiveChatSocketUrl = 'livechat.fpt.ai:443'
+    let FptAppCode        = '3bb71baf6d921625008ed89e6761d0f7'
+    let FptAppName        = 'Rô Đây !!!'
+    // Define custom styles
+    let CustomStyles = {
+        // header
+        headerBackground: '#0029FFFF',
+        headerTextColor: '#ffffffff',
+        headerLogoEnable: true,
+        headerLogoLink: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/logo_head.svg',
+        headerText: 'Rô Đây !!!',
+        // main
+        primaryColor: '#363FECFF',
+        secondaryColor: '#ECECECFF',
+        primaryTextColor: '#F6FF03FF',
+        secondaryTextColor: '#2B29E2DE',
+        buttonColor: '#0619FFB3',
+        buttonTextColor: '#ffffffff',
+        bodyBackgroundEnable: true,
+        bodyBackgroundLink: 'https://chatbot-tools.fpt.ai/livechat-builder/img/theme/digital_agency/body.png',
+        avatarBot: 'https://ailifestyle.000webhostapp.com/assets/Tr%E1%BA%AFng%20v%C3%A0%20Nhi%E1%BB%81u%20m%C3%A0u%20s%E1%BA%AFc%20H%C3%ACnh%20tam%20gi%C3%A1c%20Logo%20Internet.svg',
+        sendMessagePlaceholder: 'Trò chuyện ngay',
+        // float button
+        floatButtonLogo: 'https://ailifestyle.000webhostapp.com/assets/Tr%E1%BA%AFng%20v%C3%A0%20Nhi%E1%BB%81u%20m%C3%A0u%20s%E1%BA%AFc%20H%C3%ACnh%20tam%20gi%C3%A1c%20Logo%20Internet.svg',
+        floatButtonTooltip: 'Trò chuyện ngay với Rô nào !!!',
+        floatButtonTooltipEnable: true,
+        // start screen
+        customerLogo: 'https://ailifestyle.000webhostapp.com/assets/Tr%E1%BA%AFng%20v%C3%A0%20Nhi%E1%BB%81u%20m%C3%A0u%20s%E1%BA%AFc%20H%C3%ACnh%20tam%20gi%C3%A1c%20Logo%20Internet.svg',
+        customerWelcomeText: 'Xưng hô như nào đây ?',
+        customerButtonText: 'Gét Gô',
+        prefixEnable: false,
+        prefixType: 'radio',
+        prefixOptions: ["Anh","Chị"],
+        prefixPlaceholder: 'Danh xưng',
+        // custom css
+        css: ''
+    }
+    // Get bot code from url if FptAppCode is empty
+    if (!FptAppCode) {
+        let appCodeFromHash = window.location.hash.substr(1)
+        if (appCodeFromHash.length === 32) {
+            FptAppCode = appCodeFromHash
+        }
+    }
+    // Set Configs
+    let FptLiveChatConfigs = {
+        appName: FptAppName,
+        appCode: FptAppCode,
+        themes : '',
+        styles : CustomStyles
+    }
+    // Append Script
+    let FptLiveChatScript  = document.createElement('script')
+    FptLiveChatScript.id   = 'fpt_ai_livechat_script'
+    FptLiveChatScript.src  = liveChatBaseUrl + '/static/fptai-livechat.js'
+    document.body.appendChild(FptLiveChatScript)
+    // Append Stylesheet
+    let FptLiveChatStyles  = document.createElement('link')
+    FptLiveChatStyles.id   = 'fpt_ai_livechat_script'
+    FptLiveChatStyles.rel  = 'stylesheet'
+    FptLiveChatStyles.href = liveChatBaseUrl + '/static/fptai-livechat.css'
+    document.body.appendChild(FptLiveChatStyles)
+    // Init
+    FptLiveChatScript.onload = function () {
+        fpt_ai_render_chatbox(FptLiveChatConfigs, liveChatBaseUrl, LiveChatSocketUrl)
+    }
+</script>
 
+        <img src="/assets/Trắng và Nhiều màu sắc Hình tam giác Logo Internet.svg" alt="">
     </body>
 </html>

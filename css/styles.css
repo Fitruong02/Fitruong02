@@ -7921,6 +7921,8 @@ textarea.form-control-lg {
 }
 
 .rounded {
+  padding: 10px 10px;
+
   border-radius: 0.25rem !important;
 }
 
