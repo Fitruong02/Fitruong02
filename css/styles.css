@@ -11470,3 +11470,9 @@ Transparent Overlay
   box-shadow:  0 0 5px #33ffff,
                0 0 10px #66ffff;
 }
+.from-indigo-600 {
+  color: #ffff00;
+}
+.to-indigo-500 {
+  color: #ffff00;
+}
