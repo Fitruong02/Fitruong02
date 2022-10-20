@@ -20,6 +20,9 @@
 
 <img src="https://activity-graph.herokuapp.com/graph?username=Fitruong02&custom_title=Fitruong%27s%20Contributions%20Graph&title_color=000000&bg_color=FAFAFA&line=30C5FF&fbclid=IwAR26VW_EvYcOfgHoYNgE84Wu9oSRRue4rFvw8VzJe6FPHFVprmVygP3O9kE" width="827" align="center"/>
 
+<a href="https://drive.google.com/uc?export=view&id=1UaEsF__Y70nHGDxxUyCSFi-z76cIXzMC"><img src="https://drive.google.com/uc?export=view&id=1UaEsF__Y70nHGDxxUyCSFi-z76cIXzMC" style="width: 830px; max-width: 100%; height: auto" title="Click to enlarge picture" />
+
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Fitruong02)](https://github.com/Fitruong02/github-readme-stats) 
 
 ## <img src='https://cdn-icons-png.flaticon.com/512/202/202770.png' width="50px" height="40px"> Contact with me
