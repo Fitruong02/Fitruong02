@@ -8,7 +8,7 @@
 - :sunglasses: Châm ngôn sống ***"Mơ lớn, nghĩ lớn để biết bản thân vẫn cần phải cố gắng thật nhiều"*** 
 - :ok_hand: **Tôi có khả năng:**
   + Visualization with Excel 
-  + Sử dụng Power PI tool  
+  + Sử dụng Power BI tool  
   + Python 
   + Sql      
 
